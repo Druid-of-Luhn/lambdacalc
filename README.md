@@ -13,5 +13,5 @@ The "examples.scm" file contains a simple example demonstrating assignment of a 
 
 (evaluate
   (lambda-cfg
-    (lex "let double = (n . n + n), (double 5);"))))
+    (lex "let double = (n . n + n), (double 5);")))
 ```
