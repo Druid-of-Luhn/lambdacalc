@@ -4,8 +4,6 @@
 ;;;;
 ;;;; Usage: (evaluate (lambda-cfg (lex <string>)))
 
-(use extras)
-
 (load "cfg.scm")
 (load "patternmatch.scm")
 

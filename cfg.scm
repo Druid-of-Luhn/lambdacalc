@@ -8,7 +8,7 @@
 ;;;; car is the token and the cdr is the data attached to the token.
 ;;;; For examples, see the EXAMPLES section.
 
-(use srfi-1)
+(import (srfi 1))
 
 (define-syntax cfg
   (syntax-rules (:=)
