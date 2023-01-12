@@ -1,6 +1,9 @@
 ;;;; Context-Free Grammar (CFG)
 ;;;; cfg.scm
-;;;; Copyright 2019 Billy Brown
+;;;; Copyright 2019, 2023 Billy Brown
+;;;; This Source Code Form is subject to the terms of the Mozilla Public
+;;;; License, v. 2.0. If a copy of the MPL was not distributed with this
+;;;; file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 ;;;; Macro to generate a CFG from a BNF Scheme macro.
 ;;;; The generated CFG is a function that takes a list of lists,
